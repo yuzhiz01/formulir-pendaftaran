@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir Pendaftaran</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 align="center"><b>FORMULIR PENDAFTARAN</b></h1>
+
+  <form method="post" enctype="multipart/form-data">
+    <table align="center" cellpadding="8">
+      
+      <tr>
+        <td><b>Nama Lengkap</b></td>
+        <td>
+          <input type="text" name="firstname" placeholder="Nama Depan">
+          <input type="text" name="lastname" placeholder="Nama Belakang">
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>Alamat</b></td>
+        <td>
+          <input type="text" name="jalan" placeholder="Jalan / Kampung"><br>
+          <input type="text" name="kecamatan" placeholder="Kecamatan"><br>
+          <input type="text" name="kota" placeholder="Kota/Kabupaten">
+          <input type="text" name="provinsi" placeholder="Provinsi"><br>
+          <input type="text" name="kodepos" placeholder="Kode Pos">
+          <select name="negara">
+            <option value="">Mohon Di Pilih</option>
+            <option value="indonesia">Indonesia</option>
+            <option value="malaysia">Malaysia</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>Tanggal Lahir</b></td>
+        <td>
+          <select name="bulan">
+            <option value="">Mohon Di Pilih Bulan</option>
+            <option>Januari</option>
+            <option>Februari</option>
+            <option>Maret</option>
+            <option>April</option>
+            <option>Mei</option>
+            <option>juni</option>
+            <option>juli</option>
+            <option>agustus</option>
+            <option>september</option>
+            <option>oktober</option>
+            <option>november</option>
+            <option>desember</option>
+          </select>
+          <select name="tanggal">
+            <option value="">Mohon Di Pilih Tanggal</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+            </select>
+          <select name="tahun">
+            <option value="">Mohon Di Pilih Tahun</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>E-mail</b></td>
+        <td><input type="email" name="email" placeholder="ex: myname@example.com"></td>
+      </tr>
+
+      <tr>
+        <td><b>Telpon Rumah</b></td>
+        <td>
+          <input type="text" name="kodearea" placeholder="Kode Area">
+          <input type="text" name="telprumah" placeholder="Nomor Ponsel">
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>HP</b></td>
+        <td><input type="text" name="hp" placeholder="08xxxxxxxxxx"></td>
+      </tr>
+
+      <tr>
+        <td><b>NO INDUK SISWA NASIONAL</b></td>
+        <td><input type="text" name="nisn"></td>
+      </tr>
+
+      <tr>
+        <td><b>ASAL SEKOLAH</b></td>
+        <td><input type="text" name="asal_sekolah"></td>
+      </tr>
+
+      <tr>
+        <td><b>ALAMAT SEKOLAH</b></td>
+        <td><textarea name="alamat_sekolah" rows="4" cols="40"></textarea></td>
+      </tr>
+
+      <tr>
+        <td><b>Daftar Ke</b></td>
+        <td>
+          <select name="daftar_ke">
+            <option value="">Mohon i Isi</option>
+            <option>MTS</option>
+            <option>MA</option>
+            <option>SMK NEGERI 1 BINTAN TIMUR</option>
+            <option>SMA NEGERI 1 BINTAN TIMUR</option>
+            <option>SMK NEGERI 1 TANJUNG PINANG</option>
+            <option>SMA NEGERI 1 TANJUNG PINANG</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>Isi Foto</b></td>
+        <td><input type="file" name="foto"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Submit Form">
+        </td>
+      </tr>
+
+    </table>
+  </form>
+
+</body>
+</html>
